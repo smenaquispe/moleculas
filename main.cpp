@@ -50,7 +50,7 @@ int main() {
     glClearColor(0.1f, 0.1f, 0.15f, 1.0f);
 
     Molecule molecule;
-    if (!molecule.loadFromFile("/home/smenaq/UNSA/grafica/molecula/data/Conformer3D_COMPOUND_CID_2244.json")) {
+    if (!molecule.loadFromFile("/home/smenaq/UNSA/grafica/molecula/data/data2.json")) {
         std::cerr << "Error al cargar la molécula" << std::endl;
         return -1;
     } else {
